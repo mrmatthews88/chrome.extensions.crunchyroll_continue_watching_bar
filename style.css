@@ -1,0 +1,26 @@
+.site-header {
+    border: 2px rgba(83,78,76,.5);
+    margin-bottom: 1px;
+    box-shadow: 0;
+}
+
+.continue {
+    background-color: white;
+    overflow-x: auto;
+    box-shadow: 0 0 0.5rem rgba(83,78,76,.5);
+}
+.continue li {
+    width: 120px;
+    max-width: 120px;
+    overflow: hidden;
+    margin: 5px 10px;
+    display: inline-block;
+}
+.cr-expo-banner, #template_skin_leaderboard, #SLB {
+    display:none!important;
+    height: 0!important;
+}
+body, #template_scroller {
+    background-image: none!important;
+    background-color: #f2f2f2;
+}
